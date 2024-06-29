@@ -43,6 +43,7 @@ $head-color: #21263c;
     background-color: transparent;
     transition: top 0.5s ease;
     .navbar-brand {
+        margin-right: 0 !important;
         img {
             // opacity: 0;
             display: none;
@@ -726,6 +727,9 @@ $head-color: #21263c;
     .nav {
         top: 0;
         background-color: $bg-main;
+        form {
+            justify-content: center;
+        }
     }
     .more-than {
         padding-bottom: 50px;
