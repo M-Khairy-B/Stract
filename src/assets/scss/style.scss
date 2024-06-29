@@ -810,6 +810,12 @@ $head-color: #21263c;
             }
         }
     }
+    .about-stract .stract-about .circle-player {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
 }
 @media screen and (max-width: 375px) {
     .header-main {
