@@ -133,8 +133,9 @@ $head-color: #21263c;
             font-weight: 400;
             line-height: 28.8px;
             color: $secondary-color;
-            margin-bottom: 48px;
             opacity: 70%;
+            max-width: 704px;
+            margin: 0 auto 48px;
         }
     }
     .btn-primary-main {
@@ -159,6 +160,15 @@ $head-color: #21263c;
     }
 }
 .dashborad {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 1.5s;
+
+    &.open {
+        opacity: 1;
+        transform: translateX(0);
+        transition: all 1s;
+    }
     .dashborad-main {
         margin-top: -45%;
     }

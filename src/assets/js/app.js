@@ -76,14 +76,15 @@ $(document).ready(function () {
         $(".navbar .navbar-brand img").show(500, function () {
             $(".navbar .navbar-nav .nav-item .nav-link").each(function (index) {
                 $(this)
-                    .delay(200 * index)
-                    .animate({ opacity: 1 }, 200);
+                    .delay(100 * index)
+                    .animate({ opacity: 1 }, 100);
             });
             $(".navbar .btn-main")
-                .delay(1000)
+                .delay(500)
                 .animate({ opacity: 1 }, 300, function () {
                     $(".header-main .main-text").addClass('open');
                     $(".header-main .btn-primary-main").addClass('open');
+                    $(".dashborad").addClass('open');
                 });
         });
 });
