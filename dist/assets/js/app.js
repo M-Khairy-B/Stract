@@ -16538,9 +16538,9 @@
 	    jquery(".navbar .btn-main").delay(500).animate({
 	      opacity: 1
 	    }, 300, function () {
-	      jquery(".header-main .main-text").addClass('open');
+	      jquery(".header-main .wrapper-main").addClass('open');
 	      jquery(".header-main .btn-head").addClass('open');
-	      jquery(".dashborad").addClass('open');
+	      jquery(".dashborad .dashborad-main img").addClass('open');
 	    });
 	  });
 	}); // $(".navbar .navbar-brand img").show(1000 , function(){

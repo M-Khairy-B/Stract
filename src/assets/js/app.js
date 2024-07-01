@@ -82,9 +82,9 @@ $(document).ready(function () {
             $(".navbar .btn-main")
                 .delay(500)
                 .animate({ opacity: 1 }, 300, function () {
-                    $(".header-main .main-text").addClass('open');
+                    $(".header-main .wrapper-main").addClass('open');
                     $(".header-main .btn-head").addClass('open');
-                    $(".dashborad").addClass('open');
+                    $(".dashborad .dashborad-main img").addClass('open');
                 });
         });
 });
