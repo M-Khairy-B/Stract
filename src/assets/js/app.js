@@ -83,7 +83,7 @@ $(document).ready(function () {
                 .delay(500)
                 .animate({ opacity: 1 }, 300, function () {
                     $(".header-main .main-text").addClass('open');
-                    $(".header-main .btn-primary-main").addClass('open');
+                    $(".header-main .btn-head").addClass('open');
                     $(".dashborad").addClass('open');
                 });
         });
