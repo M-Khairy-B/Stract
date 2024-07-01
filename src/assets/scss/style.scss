@@ -341,6 +341,7 @@ $head-color: #21263c;
     .data-card {
         margin-bottom: 41px;
         transition: all 0.5s;
+        padding: 0 22px;
         cursor: pointer;
         &:hover {
             box-shadow: 0px 4px 4px 0px #23286914;
