@@ -1,0 +1,55 @@
+{
+	"dataAr": {
+		"title": "هذه البيانات من ملف data-ar.json"
+	},
+	"dataEn": {
+		"title": "This data from data-en.json file",
+		"companies": {
+			"companyList": [
+				{
+					"src": "../assets/images/testing.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/data.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/data-test.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/card-1.jpg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/testing.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/data-test.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/data-test.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				},
+				{
+					"src": "../assets/images/red team.svg",
+					"title": "Non ipsum dolor tortor.",
+					"descrption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque sed diam id consect...."
+				}
+			]
+		}
+	},
+	"homeDataAr": {
+		"title": "هذه البيانات من ملف home-ar.json"
+	}
+}
